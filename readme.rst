@@ -2,8 +2,9 @@
 Parental Notification System (PNS)
 ########
 
-### SPECIFIC OBJECTIVE OF PARENT NOTIFICATION SYSTEM ###
-
+### 
+SPECIFIC OBJECTIVE OF PARENT NOTIFICATION SYSTEM
+###
 1. School registration.
 2. Teacher registration and management.
 3. Student registration and management.
