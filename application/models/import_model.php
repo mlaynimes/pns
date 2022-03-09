@@ -1,0 +1,19 @@
+
+<?php
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+
+class import_model extends CI_Model {
+
+    public function importData($data) {
+
+        $res = $this->db->insert_batch('organization',$data);
+        if($res){
+            return TRUE;
+        }else{
+            return FALSE;
+        }
+
+    }
+}
+?>
